@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(255, 255, 0, 0.4);
+}
+
+h1 {
+  color: #0000ff;
+  font-weight: 900;
+}
+
+.text {
+  color: #00aa00;
+}
+
+#info {
+  color: #ffa500;
+}
+
+a[href] {
+  color: #ee82ee;
+}
+
+.wrapper p {
+  color: #a52a2a;
+}
+
+.wrapper > p {
+  color: #0800ff;
+}
+
+.menu-item:first-child {
+  color: rgb(0, 255, 30);
+}
+
+.menu-item:nth-child(2n) {
+  color: pink;
+  font-weight: 700;
+}
+
+#some-menu > .menu-item:last-child {
+  color: #ee00ff;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
+.box > p:nth-child(3) {
+  color: #000000;
+  font-weight: 700;
+}
+
+.box > p:nth-child(3) ~ p {
+  color: #ff0000;
+}
